@@ -181,6 +181,8 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
+  font-size: 16px;
+  text-shadow: 0.5px 1px gray;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -208,13 +210,13 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom .navbar-brand {
     /*font-size: 2em;*/
-    font-size: 40px;
+    font-size: 60px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
   .navbar-custom .navbar-nav > .active > a {
-    border-radius: 3px;
+    border-radius: 2px;
   }
 }
 @media (min-width: 768px) {
@@ -228,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   /*background-image: url('../img/laptopdark.jpg');*/
-  background-image: url('../img/jennatest.jpg');
+  background-image: url('../img/jennabackground.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center bottom 45%;
