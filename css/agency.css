@@ -101,15 +101,14 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #a0587a;
-  border-color: #a0587a;
+  background-color: rgba(160, 88, 122, 0.7);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
   font-size: 22px;
   padding: 20px 25px;
-  /*transition-duration: 0.5s;*/
+  transition: all 0.5s;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -118,8 +117,6 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #a56b87;
-  border-color: white;
-  /*border-width: 2px;*/
 
 }
 .btn-xl:active,
@@ -233,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   /*background-image: url('../img/laptopdark.jpg');*/
-  background-image: url('../img/jennabackground.jpg');
+  background-image: url('../img/IMG_1153.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center bottom 45%;
@@ -577,7 +574,7 @@ section h3.section-subheading {
 
 .education {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 #education img {
   margin: 0 auto;
@@ -588,7 +585,7 @@ section h3.section-subheading {
 .education h4 {
   margin-top: 25px;
   margin-bottom: 0;
-  text-transform: none;
+  text-transform: uppercase;
   color: #a0587a;
   font-size: 20px;
 }
